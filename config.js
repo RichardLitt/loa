@@ -45,7 +45,11 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://linguistsoutsideacademia.com',
-        mail: {},
+        mail: {
+		transport: 'sendmail',
+		fromaddress: 'no-reply@linguistsoutsideacademia.com',
+		options: {}
+	},
         database: {
             client: 'sqlite3',
             connection: {

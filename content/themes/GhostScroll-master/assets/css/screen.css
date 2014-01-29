@@ -172,7 +172,7 @@ a:hover {
     color: #86c440;
 }
 
-a.btn {
+a.btn, #subscribe {
     
     text-decoration: none;
     background-color: #9fd067;
@@ -194,8 +194,18 @@ a.btn {
 
 }
 
-a.btn:hover {
+a.btn:hover, #subscribe:hover {
     background: #86c440;
+}
+
+.subscription-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#subscribe-input {
+    padding: 8px 10px 10px;
+    border-radius: 6px;
 }
 
 #header-arrow {

@@ -35,6 +35,8 @@
 
     {{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
+
+
 </head>
 <body class="{{body_class}}">
 
@@ -53,6 +55,13 @@
 
     {{! The main JavaScript file for GhostScroll }}
     <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <script type="text/javascript">
+  document.getElementById('forum_embed').src =
+     'https://groups.google.com/forum/embed/?place=forum/ling-outside'
+     + '&showsearch=true&showpopout=true&showtabs=false'
+     + '&parenturl=' + encodeURIComponent(window.location.href);
+</script>
 
 </body>
 </html>
